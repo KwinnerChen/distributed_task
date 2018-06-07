@@ -56,5 +56,5 @@ if __name__ == '__main__':
         port = int(addr.split(':')[-1])
         addr = (ip, port)
         authkey = input('输入连接密钥：')
-        main(addr=addr, authkey=authkey)
+        main(addr=addr, authkey=b''+authkey)
     
